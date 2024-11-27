@@ -1,0 +1,10 @@
+Con ayuda de google fonts se configuro para que todas las paginas tengan la misma fuente "Josefin Sans"
+
+index.js:
+    Esta es la primera pagina que el usuario va a ver, se le muestra las opciones de iniciar sesion con un usuario creado anteriormente, registrarse como un usuario nuevo, esto le dara la posibilidad de optar al descuento de cliente frecuente a llevar registro de sus reservas anteriores y la opcion de mostrar las habitaciones disponibles.
+
+    Esta primera pagina se diseño con una imagen de fondo aplicada al <body> obtenida desde Pixabay y con las propiedades de css "background-image", "background-size", "background-position", "background-repeat" y "background-attachment" logramos tener la imagen de fondo centrada y que cubra toda la pagina
+
+    Con ayuda de Bootstrap se ha agregado un ".container" para agregar todo el contenido y se ha configurado para que todo su contenido este en el centro 
+
+    Se ha agregado el titulo en una etiqueta <h1> con clase ".titulo" para decorarlo con un "text-shadow"

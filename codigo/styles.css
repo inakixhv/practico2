@@ -1,0 +1,58 @@
+
+
+.josefin-sans{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+*{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body{
+    background-image: url('./src/images/building-7879891_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* gap: 20px; */
+}
+.titulo{
+    position: absolute;
+    font-size: 50px;
+    text-shadow: 0px 5px 10px black;
+    color: aliceblue;
+    font-weight: bolder;
+    top: 30%;
+    left: 10%;
+    
+
+}
+.botones{
+    display: flex;
+    padding-bottom: 15%;
+    gap: 20px;
+}
+.iniciar{
+    /* justify-self: center; */
+    background-color: rgba(95, 141, 182, 0.699);
+    border-color: rgb(26, 80, 128);
+    color: rgb(0, 0, 0);
+    /* font-size: larger; */
+    font-weight: bolder;
+}
+.iniciar:hover{
+    background-color: rgb(26, 80, 128);
+    color: white   ;
+}
+.registrarse{
+
+}
